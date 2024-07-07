@@ -1,16 +1,50 @@
-# girodashboard
+# Turnover Management Application
 
-A new Flutter project.
+This application is designed to manage and visualize turnover data, including product information, sales data, and stock information. It provides customers with insights into their branch and product details through intuitive data visualizations.
 
-## Getting Started
+![Screenshot_20240707_174718](https://github.com/erdemaksoy/GiroDashboard/assets/79666268/8feeb332-4a97-400b-a683-9b1daa6e4818)
 
-This project is a starting point for a Flutter application.
+## Table of Contents
 
-A few resources to get you started if this is your first Flutter project:
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Architecture](#architecture)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Product Information Management:** Store and manage customer product details.
+- **Sales Information Management:** Track and manage sales data.
+- **Stock Information Management:** Monitor and manage stock levels.
+- **Data Visualization:** Display turnover information, customer branch, and product details through data visualization on the homepage.
+
+## Technologies Used
+
+### Frontend
+
+- **Flutter**
+- **Dart**
+- **MVVM Architecture**
+
+### Backend
+
+- **ASP.NET WEB API**
+- **Entity Framework**
+- **Onion Architecture**
+- **REST API**
+
+## Architecture
+
+The application uses a modern architecture to ensure maintainability, scalability, and testability.
+
+### Frontend: MVVM (Model-View-ViewModel)
+
+- **Model:** Manages the data and business logic.
+- **View:** Handles the presentation layer and UI.
+- **ViewModel:** Acts as a bridge between the View and the Model, managing the state and handling user input.
+
+### Backend: Onion Architecture
+
+- **Core:** Contains the domain entities and repository interfaces.
+- **Application:** Contains the business logic and service interfaces.
+- **Infrastructure:** Implements the repository interfaces and handles data access.
+- **API:** Exposes the endpoints and handles HTTP requests.
