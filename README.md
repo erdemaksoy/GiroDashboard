@@ -31,20 +31,20 @@ This layer contains the core entities and repository interfaces.
 
 Interfaces: These define the contracts for the repositories.
 
-Application Layer
+### Application Layer
 This layer contains the business logic and service interfaces.
 
 Services: These implement the business logic.
 
 DTOs: Data Transfer Objects are used to transfer data between layers.
 
-Infrastructure Layer
+### Infrastructure Layer
 This layer contains the implementation of repository interfaces and handles data access.
 Repositories: These implement the data access logic using Entity Framework.
 
 DbContext: This is the Entity Framework DbContext.
 
-API Layer
+### API Layer
 This layer exposes the endpoints for the frontend to interact with.
 
 Controllers: These handle the HTTP requests and return the responses.
