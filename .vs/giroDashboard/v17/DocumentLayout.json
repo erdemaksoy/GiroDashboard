@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\erdmg\\source\\repos\\giroDashboard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E14ECAF-C194-4559-8195-15738B4C9E21}|GiroDashboard.API\\GiroDashboard.API.csproj|c:\\users\\erdmg\\source\\repos\\girodashboard\\girodashboard.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E14ECAF-C194-4559-8195-15738B4C9E21}|GiroDashboard.API\\GiroDashboard.API.csproj|solutionrelative:girodashboard.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB8C0A0-A7C3-4D31-A461-392FB6D394D7}|GiroDashboard.Persistence\\GiroDashboard.Persistence.csproj|C:\\Users\\erdmg\\source\\repos\\giroDashboard\\girodashboard.persistence\\repositories\\sql\\dashboardsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB8C0A0-A7C3-4D31-A461-392FB6D394D7}|GiroDashboard.Persistence\\GiroDashboard.Persistence.csproj|solutionrelative:girodashboard.persistence\\repositories\\sql\\dashboardsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB8C0A0-A7C3-4D31-A461-392FB6D394D7}|GiroDashboard.Persistence\\GiroDashboard.Persistence.csproj|C:\\Users\\erdmg\\source\\repos\\giroDashboard\\girodashboard.persistence\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB8C0A0-A7C3-4D31-A461-392FB6D394D7}|GiroDashboard.Persistence\\GiroDashboard.Persistence.csproj|solutionrelative:girodashboard.persistence\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E14ECAF-C194-4559-8195-15738B4C9E21}|GiroDashboard.API\\GiroDashboard.API.csproj|C:\\Users\\erdmg\\source\\repos\\giroDashboard\\girodashboard.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E14ECAF-C194-4559-8195-15738B4C9E21}|GiroDashboard.API\\GiroDashboard.API.csproj|solutionrelative:girodashboard.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 50,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardSQL.cs",
+              "DocumentMoniker": "C:\\Users\\erdmg\\source\\repos\\giroDashboard\\GiroDashboard.Persistence\\Repositories\\SQL\\DashboardSQL.cs",
+              "RelativeDocumentMoniker": "GiroDashboard.Persistence\\Repositories\\SQL\\DashboardSQL.cs",
+              "ToolTip": "C:\\Users\\erdmg\\source\\repos\\giroDashboard\\GiroDashboard.Persistence\\Repositories\\SQL\\DashboardSQL.cs",
+              "RelativeToolTip": "GiroDashboard.Persistence\\Repositories\\SQL\\DashboardSQL.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAjwEUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:11:17.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\erdmg\\source\\repos\\giroDashboard\\GiroDashboard.Persistence\\Configuration.cs",
+              "RelativeDocumentMoniker": "GiroDashboard.Persistence\\Configuration.cs",
+              "ToolTip": "C:\\Users\\erdmg\\source\\repos\\giroDashboard\\GiroDashboard.Persistence\\Configuration.cs",
+              "RelativeToolTip": "GiroDashboard.Persistence\\Configuration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T06:32:34.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\erdmg\\source\\repos\\giroDashboard\\GiroDashboard.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "GiroDashboard.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\erdmg\\source\\repos\\giroDashboard\\GiroDashboard.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "GiroDashboard.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwDYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T12:14:53.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\erdmg\\source\\repos\\giroDashboard\\GiroDashboard.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "GiroDashboard.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\erdmg\\source\\repos\\giroDashboard\\GiroDashboard.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "GiroDashboard.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvxoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-07T12:09:02.423Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1648,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

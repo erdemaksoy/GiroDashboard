@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6153CCF9-5FB4-4F5A-A0E6-7E3E228F47F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3A8A4342-A789-4330-9829-194DF36216D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{173E6718-27A1-408D-8985-85D9275B028F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiroDashboard.Application", "GiroDashboard.Application\GiroDashboard.Application.csproj", "{27B24D50-8661-460B-868E-7DB308FA15E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiroDashboard.Domain", "GiroDashboard.Domain\GiroDashboard.Domain.csproj", "{21076068-3B21-4F41-8F9A-EA532959942E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiroDashboard.Infrastructure", "GiroDashboard.Infrastructure\GiroDashboard.Infrastructure.csproj", "{E37DEFBE-9E0B-4495-A91D-05B81B45065B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiroDashboard.Persistence", "GiroDashboard.Persistence\GiroDashboard.Persistence.csproj", "{0FB8C0A0-A7C3-4D31-A461-392FB6D394D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiroDashboard.API", "GiroDashboard.API\GiroDashboard.API.csproj", "{6E14ECAF-C194-4559-8195-15738B4C9E21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27B24D50-8661-460B-868E-7DB308FA15E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B24D50-8661-460B-868E-7DB308FA15E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B24D50-8661-460B-868E-7DB308FA15E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B24D50-8661-460B-868E-7DB308FA15E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21076068-3B21-4F41-8F9A-EA532959942E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21076068-3B21-4F41-8F9A-EA532959942E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21076068-3B21-4F41-8F9A-EA532959942E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21076068-3B21-4F41-8F9A-EA532959942E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37DEFBE-9E0B-4495-A91D-05B81B45065B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37DEFBE-9E0B-4495-A91D-05B81B45065B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37DEFBE-9E0B-4495-A91D-05B81B45065B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37DEFBE-9E0B-4495-A91D-05B81B45065B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB8C0A0-A7C3-4D31-A461-392FB6D394D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB8C0A0-A7C3-4D31-A461-392FB6D394D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB8C0A0-A7C3-4D31-A461-392FB6D394D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB8C0A0-A7C3-4D31-A461-392FB6D394D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E14ECAF-C194-4559-8195-15738B4C9E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E14ECAF-C194-4559-8195-15738B4C9E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E14ECAF-C194-4559-8195-15738B4C9E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E14ECAF-C194-4559-8195-15738B4C9E21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27B24D50-8661-460B-868E-7DB308FA15E1} = {6153CCF9-5FB4-4F5A-A0E6-7E3E228F47F6}
+		{21076068-3B21-4F41-8F9A-EA532959942E} = {6153CCF9-5FB4-4F5A-A0E6-7E3E228F47F6}
+		{E37DEFBE-9E0B-4495-A91D-05B81B45065B} = {3A8A4342-A789-4330-9829-194DF36216D0}
+		{0FB8C0A0-A7C3-4D31-A461-392FB6D394D7} = {3A8A4342-A789-4330-9829-194DF36216D0}
+		{6E14ECAF-C194-4559-8195-15738B4C9E21} = {173E6718-27A1-408D-8985-85D9275B028F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B439FF7D-E2D3-41C9-9228-871324154D9C}
+	EndGlobalSection
+EndGlobal

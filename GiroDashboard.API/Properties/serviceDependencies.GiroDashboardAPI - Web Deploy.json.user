@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2024-02-21T08:36:56.4930224Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2024-02-21T11:58:08.9136913Z"
+    }
+  },
+  "parameters": {
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "farkgrup"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "8d6791ec-9c22-4b68-8a55-eb50ab753f88"
+    }
+  }
+}

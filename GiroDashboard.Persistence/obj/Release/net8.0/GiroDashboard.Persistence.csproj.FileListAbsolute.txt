@@ -1,0 +1,17 @@
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\bin\Release\net8.0\GiroDashboard.Persistence.deps.json
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\bin\Release\net8.0\GiroDashboard.Persistence.dll
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\bin\Release\net8.0\GiroDashboard.Persistence.pdb
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\bin\Release\net8.0\GiroDashboard.Application.dll
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\bin\Release\net8.0\GiroDashboard.Domain.dll
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\bin\Release\net8.0\GiroDashboard.Application.pdb
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\bin\Release\net8.0\GiroDashboard.Domain.pdb
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\obj\Release\net8.0\GiroDashboard.Persistence.csproj.AssemblyReference.cache
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\obj\Release\net8.0\GiroDashboard.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\obj\Release\net8.0\GiroDashboard.Persistence.AssemblyInfoInputs.cache
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\obj\Release\net8.0\GiroDashboard.Persistence.AssemblyInfo.cs
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\obj\Release\net8.0\GiroDashboard.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\obj\Release\net8.0\GiroDash.84F2555B.Up2Date
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\obj\Release\net8.0\GiroDashboard.Persistence.dll
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\obj\Release\net8.0\refint\GiroDashboard.Persistence.dll
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\obj\Release\net8.0\GiroDashboard.Persistence.pdb
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Persistence\obj\Release\net8.0\ref\GiroDashboard.Persistence.dll

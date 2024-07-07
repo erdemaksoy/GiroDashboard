@@ -1,0 +1,702 @@
+[
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.AuthController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.User.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.AuthController",
+    "Method": "ValideToken",
+    "RelativePath": "api/Auth/Validetoken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.DashboardController",
+    "Method": "AddDashboard",
+    "RelativePath": "api/Dashboard/AddDashboard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Dashboard.DashboardAddModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.DashboardController",
+    "Method": "DeleteDashboard",
+    "RelativePath": "api/Dashboard/DeleteDashboard",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Dashboard.DashboardAddModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.DashboardController",
+    "Method": "GetDashboardData",
+    "RelativePath": "api/Dashboard/GetDashboardData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GiroDashboard.Application.DTOs.Dashboard.DashboardRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.DashboardController",
+    "Method": "GetDashboards",
+    "RelativePath": "api/Dashboard/GetDashboards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.DashboardController",
+    "Method": "UpdateDashboard",
+    "RelativePath": "api/Dashboard/UpdateDashboard",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Dashboard.DashboardAddModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.MuhasebeController",
+    "Method": "GetKasiyerAcik",
+    "RelativePath": "api/Muhasebe/KasiyerAcik",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Muhasebe.MuhasebeRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.MuhasebeController",
+    "Method": "GetKasiyerPerformans",
+    "RelativePath": "api/Muhasebe/KasiyerPerformans",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Muhasebe.MuhasebeRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.MuhasebeController",
+    "Method": "GetKDVDurum",
+    "RelativePath": "api/Muhasebe/KDVDurum",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Muhasebe.MuhasebeRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporController",
+    "Method": "AddRapor",
+    "RelativePath": "api/Rapor/AddRapor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Rapor.Tanim.RaporAddModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporController",
+    "Method": "DeleteRapor",
+    "RelativePath": "api/Rapor/DeleteRapor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Rapor.Tanim.RaporTanimModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporController",
+    "Method": "GetRapor",
+    "RelativePath": "api/Rapor/GetRapor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporController",
+    "Method": "UpdateRapor",
+    "RelativePath": "api/Rapor/UpdateRapor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Rapor.Tanim.RaporAddModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporFiltreController",
+    "Method": "AddRaporFiltre",
+    "RelativePath": "api/RaporFiltre/AddRaporFiltre",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Rapor.Filtre.RaporFiltreAddModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporFiltreController",
+    "Method": "DeleteRaporFiltre",
+    "RelativePath": "api/RaporFiltre/DeleteRaporFiltre",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Rapor.Filtre.RaporFiltreTanimModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporFiltreController",
+    "Method": "GetRaporFiltre",
+    "RelativePath": "api/RaporFiltre/GetRaporFiltre",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RaporKodu",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporFiltreController",
+    "Method": "UpdateRaporFiltre",
+    "RelativePath": "api/RaporFiltre/UpdateRaporFiltre",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Rapor.Filtre.RaporFiltreAddModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporGrupController",
+    "Method": "AddRaporGrup",
+    "RelativePath": "api/RaporGrup/AddRaporGrup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Rapor.Grup.RaporGrupAddModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporGrupController",
+    "Method": "DeleteRaporGrup",
+    "RelativePath": "api/RaporGrup/DeleteRaporGrup",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Rapor.Grup.RaporGrupTanimModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporGrupController",
+    "Method": "GetRaporGrup",
+    "RelativePath": "api/RaporGrup/GetRaporGrup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporGrupController",
+    "Method": "UpdateRaporGrup",
+    "RelativePath": "api/RaporGrup/UpdateRaporGrup",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Rapor.Grup.RaporGrupAddModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporKolonController",
+    "Method": "AddRaporKolon",
+    "RelativePath": "api/RaporKolon/AddRaporKolon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Rapor.Kolon.RaporKolonAddModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporKolonController",
+    "Method": "DeleteRaporKolon",
+    "RelativePath": "api/RaporKolon/DeleteRaporKolon",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Rapor.Kolon.RaporKolonTanimModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporKolonController",
+    "Method": "GetRaporKolon",
+    "RelativePath": "api/RaporKolon/GetRaporKolon",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RaporKodu",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RaporKolonController",
+    "Method": "UpdateRaporKolon",
+    "RelativePath": "api/RaporKolon/UpdateRaporKolon",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Rapor.Kolon.RaporKolonAddModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RoleController",
+    "Method": "DeleteRole",
+    "RelativePath": "api/Role",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Role.RoleEditModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RoleController",
+    "Method": "AddRole",
+    "RelativePath": "api/Role/AddRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Role.RoleAddModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RoleController",
+    "Method": "EditRole",
+    "RelativePath": "api/Role/EditRole",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Role.RoleEditModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.RoleController",
+    "Method": "GetRoles",
+    "RelativePath": "api/Role/roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.SatisController",
+    "Method": "GetSaatlikSatis",
+    "RelativePath": "api/Satis/SaatlikSatis",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Satis.SatisRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.SatisController",
+    "Method": "GetSatisOdeme",
+    "RelativePath": "api/Satis/SatisOdeme",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Satis.SatisRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.SatisController",
+    "Method": "GetSatisUrun",
+    "RelativePath": "api/Satis/SatisUrun",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Satis.SatisRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.StokController",
+    "Method": "GetEnCok",
+    "RelativePath": "api/Stok/EnCokSatanUrunler",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Stok.StokRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.StokController",
+    "Method": "GetStokGimsa",
+    "RelativePath": "api/Stok/Gimsa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Stok.StokRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.StokController",
+    "Method": "GetStokHareket",
+    "RelativePath": "api/Stok/StokHareket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Stok.StokRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.User.AddUserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/User/AddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.User.AddUserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.UserController",
+    "Method": "EditUser",
+    "RelativePath": "api/User/EditUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.User.EditUserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.UserController",
+    "Method": "GetUserforEdit",
+    "RelativePath": "api/User/GetUserforEdit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.User.ListUserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User/GetUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.YetkiController",
+    "Method": "AddYetki",
+    "RelativePath": "api/Yetki/AddYetki",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Yetki.YetkiAddModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.YetkiController",
+    "Method": "GetYetki",
+    "RelativePath": "api/Yetki/GetYetki",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Role.RoleEditModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.YetkiController",
+    "Method": "Updateyetki",
+    "RelativePath": "api/Yetki/UpdateYetki",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Yetki.YetkiModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GiroDashboard.API.Controllers.YetkiController",
+    "Method": "YetkiEkle",
+    "RelativePath": "api/Yetki/YetkiEkle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "GiroDashboard.Application.DTOs.Role.RoleEditModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,14 @@
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Domain\bin\Release\net8.0\GiroDashboard.Domain.deps.json
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Domain\bin\Release\net8.0\GiroDashboard.Domain.runtimeconfig.json
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Domain\bin\Release\net8.0\GiroDashboard.Domain.dll
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Domain\bin\Release\net8.0\GiroDashboard.Domain.pdb
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Domain\obj\Release\net8.0\GiroDashboard.Domain.csproj.AssemblyReference.cache
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Domain\obj\Release\net8.0\GiroDashboard.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Domain\obj\Release\net8.0\GiroDashboard.Domain.AssemblyInfoInputs.cache
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Domain\obj\Release\net8.0\GiroDashboard.Domain.AssemblyInfo.cs
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Domain\obj\Release\net8.0\GiroDashboard.Domain.csproj.CoreCompileInputs.cache
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Domain\obj\Release\net8.0\GiroDashboard.Domain.dll
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Domain\obj\Release\net8.0\refint\GiroDashboard.Domain.dll
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Domain\obj\Release\net8.0\GiroDashboard.Domain.pdb
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Domain\obj\Release\net8.0\GiroDashboard.Domain.genruntimeconfig.cache
+C:\Users\erdmg\source\repos\giroDashboard\GiroDashboard.Domain\obj\Release\net8.0\ref\GiroDashboard.Domain.dll
