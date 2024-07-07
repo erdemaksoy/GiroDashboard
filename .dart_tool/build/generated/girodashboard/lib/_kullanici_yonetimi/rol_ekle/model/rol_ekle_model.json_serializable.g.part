@@ -1,0 +1,12 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+RolEkleModel _$RolEkleModelFromJson(Map<String, dynamic> json) => RolEkleModel(
+      json['rolAciklama'] as String?,
+    );
+
+Map<String, dynamic> _$RolEkleModelToJson(RolEkleModel instance) =>
+    <String, dynamic>{
+      'rolAciklama': instance.rolAciklama,
+    };

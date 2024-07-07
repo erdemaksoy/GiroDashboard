@@ -1,0 +1,18 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+RaporGrupTanimModel _$RaporGrupTanimModelFromJson(Map<String, dynamic> json) =>
+    RaporGrupTanimModel(
+      json['grupKodu'] as String?,
+      json['grupAciklama'] as String?,
+      json['id'] as int?,
+    );
+
+Map<String, dynamic> _$RaporGrupTanimModelToJson(
+        RaporGrupTanimModel instance) =>
+    <String, dynamic>{
+      'grupKodu': instance.grupKodu,
+      'grupAciklama': instance.grupAciklama,
+      'id': instance.id,
+    };

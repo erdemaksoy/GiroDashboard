@@ -1,0 +1,31 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MuhasebeRequestModel _$MuhasebeRequestModelFromJson(
+        Map<String, dynamic> json) =>
+    MuhasebeRequestModel(
+      kullanici: json['kullanici'] as int?,
+      subeKodu: json['subeKodu'] as int?,
+      tarih: json['tarih'] == null
+          ? null
+          : DateTime.parse(json['tarih'] as String),
+      basTarih: json['basTarih'] == null
+          ? null
+          : DateTime.parse(json['basTarih'] as String),
+      bitTarih: json['bitTarih'] == null
+          ? null
+          : DateTime.parse(json['bitTarih'] as String),
+      barkod: json['barkod'] as String?,
+    );
+
+Map<String, dynamic> _$MuhasebeRequestModelToJson(
+        MuhasebeRequestModel instance) =>
+    <String, dynamic>{
+      'kullanici': instance.kullanici,
+      'subeKodu': instance.subeKodu,
+      'tarih': instance.tarih?.toIso8601String(),
+      'basTarih': instance.basTarih?.toIso8601String(),
+      'bitTarih': instance.bitTarih?.toIso8601String(),
+      'barkod': instance.barkod,
+    };

@@ -1,0 +1,55 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+UrunSatisModel _$UrunSatisModelFromJson(Map<String, dynamic> json) =>
+    UrunSatisModel(
+      json['tarih'] == null ? null : DateTime.parse(json['tarih'] as String),
+      (json['sube'] as num?)?.toDouble(),
+      (json['kasaNo'] as num?)?.toDouble(),
+      (json['fisNo'] as num?)?.toDouble(),
+      (json['saat'] as num?)?.toDouble(),
+      (json['sira'] as num?)?.toDouble(),
+      json['musteriNo'] as String?,
+      (json['zNo'] as num?)?.toDouble(),
+      json['stokAd'] as String?,
+      json['stokKod'] as String?,
+      json['barkod'] as String?,
+      json['belge'] as String?,
+      json['durumu'] as String?,
+      (json['kasiyer'] as num?)?.toDouble(),
+      (json['kdv'] as num?)?.toDouble(),
+      (json['fiyat'] as num?)?.toDouble(),
+      (json['miktar'] as num?)?.toDouble(),
+      json['birim'] as String?,
+      (json['tutar'] as num?)?.toDouble(),
+      (json['satirInd'] as num?)?.toDouble(),
+      (json['genelInd'] as num?)?.toDouble(),
+      (json['fisToplam'] as num?)?.toDouble(),
+    );
+
+Map<String, dynamic> _$UrunSatisModelToJson(UrunSatisModel instance) =>
+    <String, dynamic>{
+      'tarih': instance.tarih?.toIso8601String(),
+      'sube': instance.sube,
+      'kasaNo': instance.kasaNo,
+      'fisNo': instance.fisNo,
+      'saat': instance.saat,
+      'sira': instance.sira,
+      'musteriNo': instance.musteriNo,
+      'zNo': instance.zNo,
+      'stokAd': instance.stokAd,
+      'stokKod': instance.stokKod,
+      'barkod': instance.barkod,
+      'belge': instance.belge,
+      'durumu': instance.durumu,
+      'kasiyer': instance.kasiyer,
+      'kdv': instance.kdv,
+      'fiyat': instance.fiyat,
+      'miktar': instance.miktar,
+      'birim': instance.birim,
+      'tutar': instance.tutar,
+      'satirInd': instance.satirInd,
+      'genelInd': instance.genelInd,
+      'fisToplam': instance.fisToplam,
+    };

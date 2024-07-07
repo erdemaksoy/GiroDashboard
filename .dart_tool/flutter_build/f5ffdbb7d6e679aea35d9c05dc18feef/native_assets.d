@@ -1,0 +1,1 @@
+ C:\\src\\project\\farkmobil\\farkgirodashboard\\girodashboard\\.dart_tool\\flutter_build\\f5ffdbb7d6e679aea35d9c05dc18feef\\native_assets.yaml: 

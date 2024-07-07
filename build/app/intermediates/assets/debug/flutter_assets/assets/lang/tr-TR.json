@@ -1,0 +1,114 @@
+{
+    "welcome": "Welcome to My App",
+    "onBoard": {
+        "page1": {
+            "title": "Make It Good",
+            "desc": "You are not alone. You have unique abiltiyto go to anther world"
+        },
+        "page2": {
+            "title": "Make It Good",
+            "desc": "You are not alone. You have unique abiltiyto go to anther world"
+        },
+        "page3": {
+            "title": "Make It Good",
+            "desc": "You are not alone. You have unique abiltiyto go to anther world"
+        }
+    },
+    "splash": {
+        "welcome": "HWA UYGULAMA MİMARİSİNE HOŞ GELDİNİZ"
+    },
+    "login": {
+        "tab1": "Login",
+        "tab2": "SignUp",
+        "email": "Email",
+        "password": "Password",
+        "forgotText": "Forgot Password",
+        "login": "Login",
+        "dontAccount": "Dont have account"
+    },
+    "home": {
+        "build": {
+            "tabbar": {
+                "tab1": "Latest",
+                "tab2": "Decorative",
+                "tab3": "Music",
+                "tab4": "Style"
+            },
+            "subTitle": "Recommended"
+        },
+        "social": {
+            "cancel": "Cancel",
+            "next": "Next",
+            "search": "Search",
+            "findFriends": "Find Friends",
+            "follow": "Follow",
+            "following": "Following"
+        },
+        "game": {
+            "title": "Birlik Oyun",
+            "newUpdate": "Yeni Güncellenmiş Oyunlar",
+            "viewAll": "Görünüm Herşey",
+            "topDownload": "Üst İndirilenler",
+            "tabbar": {
+                "tab1": "YARIŞ",
+                "tab2": "Simülasyon",
+                "tab3": "Gündelik",
+                "tab4": "Karikatüry",
+                "tab5": "Oyuncaklar"
+            }
+        },
+        "burgers": {
+            "favoriteProducts": "En Çok Satılanlar",
+            "normalProducts": "Burgerler"
+        },
+        "setting": {
+            "title": "Ayarlar",
+            "about": {
+                "title": "Proje Hakkında",
+                "contribitions": "Proje Katkıda Bulunanlar"
+            },
+            "core": {
+                "title": "Project Core",
+                "themeTitle": "Tema değişikliği",
+                "themeDesc": "Uygulama temasını değiştirebilirsiniz.",
+                "langTitle": "Dil değişimi",
+                "langDesc": "Uygulama dilini değiştirebilirsiniz."
+            },
+            "exit": "Exit",
+            "applicationTour": "Uygulama Turu"
+        }
+    },
+    "drawer": {
+        "dashboard": "Ana Sayfa",
+        "stock": {
+        "title": "Stok",
+        "en_cok_satan_urunler": "En Çok Satan Ürünler",
+        "stok_hareket_izleme": "Stok Hareket İzleme",
+        "gimsa_satis": "Gimsa Satış"
+        },
+        "satis": {
+        "title": "Satış",
+        "saatlik_satis_dagilim": "Saatlik Satış Dağılım"
+        },
+        "muhasebe": {
+        "title": "Muhasebe",
+        "kasiyer_acik_fazla": "Kasiyer Açık Fazla",
+        "kasiyer_performans": "Kasiyer Performans"
+        },
+        "tanimlar": {
+        "title": "Tanımlar",
+        "rapor_grup_tanimlari": "Rapor Grup Tanımları",
+        "dashboard_tanimlari": "Dashboard Tanımları",
+        "rapor_tanimlari": "Rapor Tanımları",
+        "rapor_tanimi_ekle": "Rapor Tanımı Ekle"
+        },
+        "kullanici_yonetimi": {
+        "title": "Kullanıcı Yönetimi",
+        "kullanici_ekle": "Kullanıcı Ekle",
+        "kullanici_listesi": "Kullanıcı Listesi",
+        "rol_ekle": "Rol Ekle",
+        "rol_listesi": "Rol Listesi"
+        },
+        "logout": "Çıkış Yap"
+    }
+}      

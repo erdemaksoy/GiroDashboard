@@ -1,0 +1,39 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+GimsaSatisModel _$GimsaSatisModelFromJson(Map<String, dynamic> json) =>
+    GimsaSatisModel(
+      json['stokNo'] as String?,
+      json['urunKodu'] as String?,
+      (json['barkod'] as num?)?.toDouble(),
+      json['urunAdi'] as String?,
+      (json['kdvHaricMal'] as num?)?.toDouble(),
+      (json['satisFiyati'] as num?)?.toDouble(),
+      json['kdv'] as String?,
+      json['mevcut'] as String?,
+      json['brm'] as String?,
+      json['y2023'] as String?,
+      json['y2022'] as String?,
+      json['y2021'] as String?,
+      json['y2020'] as String?,
+      json['giris2023'] as String?,
+    );
+
+Map<String, dynamic> _$GimsaSatisModelToJson(GimsaSatisModel instance) =>
+    <String, dynamic>{
+      'stokNo': instance.stokNo,
+      'urunKodu': instance.urunKodu,
+      'barkod': instance.barkod,
+      'urunAdi': instance.urunAdi,
+      'kdvHaricMal': instance.kdvHaricMal,
+      'satisFiyati': instance.satisFiyati,
+      'kdv': instance.kdv,
+      'mevcut': instance.mevcut,
+      'brm': instance.brm,
+      'y2023': instance.y2023,
+      'y2022': instance.y2022,
+      'y2021': instance.y2021,
+      'y2020': instance.y2020,
+      'giris2023': instance.giris2023,
+    };

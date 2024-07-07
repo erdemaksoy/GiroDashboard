@@ -1,0 +1,1 @@
+ C:\\Users\\erdmg\\Desktop\\girodashboard\\.dart_tool\\flutter_build\\c916456bed8fe56ba6eac77ff17fc40c\\native_assets.yaml: 
