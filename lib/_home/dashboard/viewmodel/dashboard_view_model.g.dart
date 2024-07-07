@@ -1,0 +1,197 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'dashboard_view_model.dart';
+
+// **************************************************************************
+// StoreGenerator
+// **************************************************************************
+
+// ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic, no_leading_underscores_for_local_identifiers
+
+mixin _$DashboardViewModel on _DashboardViewModelBase, Store {
+  late final _$tarihAtom =
+      Atom(name: '_DashboardViewModelBase.tarih', context: context);
+
+  @override
+  DateTime get tarih {
+    _$tarihAtom.reportRead();
+    return super.tarih;
+  }
+
+  @override
+  set tarih(DateTime value) {
+    _$tarihAtom.reportWrite(value, super.tarih, () {
+      super.tarih = value;
+    });
+  }
+
+  late final _$dashsAtom =
+      Atom(name: '_DashboardViewModelBase.dashs', context: context);
+
+  @override
+  List<DashboardModel> get dashs {
+    _$dashsAtom.reportRead();
+    return super.dashs;
+  }
+
+  @override
+  set dashs(List<DashboardModel> value) {
+    _$dashsAtom.reportWrite(value, super.dashs, () {
+      super.dashs = value;
+    });
+  }
+
+  late final _$pagesAtom =
+      Atom(name: '_DashboardViewModelBase.pages', context: context);
+
+  @override
+  List<ChartModel> get pages {
+    _$pagesAtom.reportRead();
+    return super.pages;
+  }
+
+  @override
+  set pages(List<ChartModel> value) {
+    _$pagesAtom.reportWrite(value, super.pages, () {
+      super.pages = value;
+    });
+  }
+
+  late final _$itemsAtom =
+      Atom(name: '_DashboardViewModelBase.items', context: context);
+
+  @override
+  List<DashboardModel> get items {
+    _$itemsAtom.reportRead();
+    return super.items;
+  }
+
+  @override
+  set items(List<DashboardModel> value) {
+    _$itemsAtom.reportWrite(value, super.items, () {
+      super.items = value;
+    });
+  }
+
+  late final _$pageControllerAtom =
+      Atom(name: '_DashboardViewModelBase.pageController', context: context);
+
+  @override
+  PageController get pageController {
+    _$pageControllerAtom.reportRead();
+    return super.pageController;
+  }
+
+  @override
+  set pageController(PageController value) {
+    _$pageControllerAtom.reportWrite(value, super.pageController, () {
+      super.pageController = value;
+    });
+  }
+
+  late final _$activePageAtom =
+      Atom(name: '_DashboardViewModelBase.activePage', context: context);
+
+  @override
+  int get activePage {
+    _$activePageAtom.reportRead();
+    return super.activePage;
+  }
+
+  @override
+  set activePage(int value) {
+    _$activePageAtom.reportWrite(value, super.activePage, () {
+      super.activePage = value;
+    });
+  }
+
+  late final _$isLigthAtom =
+      Atom(name: '_DashboardViewModelBase.isLigth', context: context);
+
+  @override
+  bool get isLigth {
+    _$isLigthAtom.reportRead();
+    return super.isLigth;
+  }
+
+  @override
+  set isLigth(bool value) {
+    _$isLigthAtom.reportWrite(value, super.isLigth, () {
+      super.isLigth = value;
+    });
+  }
+
+  late final _$initAsyncAction =
+      AsyncAction('_DashboardViewModelBase.init', context: context);
+
+  @override
+  Future<void> init() {
+    return _$initAsyncAction.run(() => super.init());
+  }
+
+  late final _$getWidgetAsyncAction =
+      AsyncAction('_DashboardViewModelBase.getWidget', context: context);
+
+  @override
+  Future<List<ChartModel>> getWidget() {
+    return _$getWidgetAsyncAction.run(() => super.getWidget());
+  }
+
+  late final _$getAnaltyicWidgetAsyncAction = AsyncAction(
+      '_DashboardViewModelBase.getAnaltyicWidget',
+      context: context);
+
+  @override
+  Future<List<DashboardModel>> getAnaltyicWidget() {
+    return _$getAnaltyicWidgetAsyncAction.run(() => super.getAnaltyicWidget());
+  }
+
+  late final _$_DashboardViewModelBaseActionController =
+      ActionController(name: '_DashboardViewModelBase', context: context);
+
+  @override
+  void updateDateTime(DateTime dateTime) {
+    final _$actionInfo = _$_DashboardViewModelBaseActionController.startAction(
+        name: '_DashboardViewModelBase.updateDateTime');
+    try {
+      return super.updateDateTime(dateTime);
+    } finally {
+      _$_DashboardViewModelBaseActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  void updadteAcitvePage(int value) {
+    final _$actionInfo = _$_DashboardViewModelBaseActionController.startAction(
+        name: '_DashboardViewModelBase.updadteAcitvePage');
+    try {
+      return super.updadteAcitvePage(value);
+    } finally {
+      _$_DashboardViewModelBaseActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  void getChangeTheme() {
+    final _$actionInfo = _$_DashboardViewModelBaseActionController.startAction(
+        name: '_DashboardViewModelBase.getChangeTheme');
+    try {
+      return super.getChangeTheme();
+    } finally {
+      _$_DashboardViewModelBaseActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  String toString() {
+    return '''
+tarih: ${tarih},
+dashs: ${dashs},
+pages: ${pages},
+items: ${items},
+pageController: ${pageController},
+activePage: ${activePage},
+isLigth: ${isLigth}
+    ''';
+  }
+}

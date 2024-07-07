@@ -1,0 +1,27 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'rol_listesi_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+RolListeModel _$RolListeModelFromJson(Map<String, dynamic> json) =>
+    RolListeModel(
+      json['rolId'] as int,
+      json['rIdate'] == null ? null : DateTime.parse(json['rIdate'] as String),
+      json['rIkull'] as int?,
+      json['rUdate'] == null ? null : DateTime.parse(json['rUdate'] as String),
+      json['rUkull'] as int?,
+      json['rolAciklama'] as String?,
+    );
+
+Map<String, dynamic> _$RolListeModelToJson(RolListeModel instance) =>
+    <String, dynamic>{
+      'rolId': instance.rolId,
+      'rIdate': instance.rIdate?.toIso8601String(),
+      'rIkull': instance.rIkull,
+      'rUdate': instance.rUdate?.toIso8601String(),
+      'rUkull': instance.rUkull,
+      'rolAciklama': instance.rolAciklama,
+    };

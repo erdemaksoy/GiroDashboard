@@ -1,0 +1,45 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'stok_hareket_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+StokHareketModel _$StokHareketModelFromJson(Map<String, dynamic> json) =>
+    StokHareketModel(
+      json['subeKodu'] as int?,
+      json['tarih'] == null ? null : DateTime.parse(json['tarih'] as String),
+      json['belgeNo'] as String?,
+      json['evrakNo'] as String?,
+      json['belgeTipi'] as int?,
+      json['belgeAdi'] as String?,
+      (json['girenMiktar'] as num?)?.toDouble(),
+      (json['cikanMiktar'] as num?)?.toDouble(),
+      (json['harBakiye'] as num?)?.toDouble(),
+      json['cariAdi'] as String?,
+      (json['stokNF'] as num?)?.toDouble(),
+      (json['netTutar'] as num?)?.toDouble(),
+      (json['stokBF'] as num?)?.toDouble(),
+      (json['kdvOrani'] as num?)?.toDouble(),
+      json['stokHr_Recno'] as int?,
+    );
+
+Map<String, dynamic> _$StokHareketModelToJson(StokHareketModel instance) =>
+    <String, dynamic>{
+      'subeKodu': instance.subeKodu,
+      'tarih': instance.tarih?.toIso8601String(),
+      'belgeNo': instance.belgeNo,
+      'evrakNo': instance.evrakNo,
+      'belgeTipi': instance.belgeTipi,
+      'belgeAdi': instance.belgeAdi,
+      'girenMiktar': instance.girenMiktar,
+      'cikanMiktar': instance.cikanMiktar,
+      'harBakiye': instance.harBakiye,
+      'cariAdi': instance.cariAdi,
+      'stokNF': instance.stokNF,
+      'netTutar': instance.netTutar,
+      'stokBF': instance.stokBF,
+      'kdvOrani': instance.kdvOrani,
+      'stokHr_Recno': instance.stokHr_Recno,
+    };
