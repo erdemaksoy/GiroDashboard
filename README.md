@@ -4,6 +4,7 @@ This application is designed to manage and visualize turnover data, including pr
 
 ![Screenshot_20240707_174718](https://github.com/erdemaksoy/GiroDashboard/assets/79666268/8feeb332-4a97-400b-a683-9b1daa6e4818)
 
+<img src="https://github.com/erdemaksoy/GiroDashboard/assets/79666268/8feeb332-4a97-400b-a683-9b1daa6e4818" alt="App Screenshot" width="600"/>
 ## Table of Contents
 
 - [Features](#features)
