@@ -1,4 +1,4 @@
-# POSBACK - Real-Time Turnover & Multi-Branch Management System
+# Real-Time Turnover & Multi-Branch Management System
 
 POSBACK is an enterprise-grade, data-driven financial dashboard application designed for retail businesses and chain stores to monitor, manage, and analyze point-of-sale (POS) metrics in real time. The platform processes live transactional data directly from cash registers and cashiers, transforming raw financial metrics into actionable insights. 
 
