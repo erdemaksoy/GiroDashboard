@@ -56,45 +56,46 @@ A highly responsive and clean UI layer designed to run natively on both iOS and 
 ---
 
 ## 📐 System Architecture Overview
-
+```
 ┌────────────────────────────────────────────────────────┐
-│            Multi-Branch POS Terminal Systems           │
-│  (Raw Cash Register Data: Sales, Refunds, Footfall)   │
-└───────────────────────────┬────────────────────────────┘
-│
-│ (HTTPS / REST API Requests)
-▼
-┌────────────────────────────────────────────────────────┐
-│                  ASP.NET Core Web API                  │ ◄─── [ JWT Auth Layer ]
-└───────────────────────────┬────────────────────────────┘
-│
-│
-▼
-=================================
-BACKEND: ONION ARCHITECTURE
-=================================
-│ [API Layer]                   │
-│   └── Controllers & DTOs      │
-│                               │
-│ [Infrastructure Layer]        │
-│   └── EF Core DbContext       │
-│                               │
-│ [Application Layer]           │
-│   └── Services & Interfaces   │
-│                               │
-│ [Core Domain Layer]           │
-│   └── Entities & Repositories │
-=================================
-│
-│ (Optimized SQL Queries)
-▼
-┌────────────────────────────────────────────────────────┐
-│                PostgreSQL / MySQL DB                   │
-└───────────────────────────┬────────────────────────────┘
-│
-│ (JSON Data Serialization)
-▼
-┌────────────────────────────────────────────────────────┐
-│             Flutter Cross-Platform Mobile              │
-│          (MVVM State Management Architecture)          │
-└────────────────────────────────────────────────────────┘
+ │            Multi-Branch POS Terminal Systems           │
+ │  (Raw Cash Register Data: Sales, Refunds, Footfall)   │
+ └───────────────────────────┬────────────────────────────┘
+                             │
+                             │ (HTTPS / REST API Requests)
+                             ▼
+ ┌────────────────────────────────────────────────────────┐
+ │                  ASP.NET Core Web API                  │ ◄─── [ JWT Auth Layer ]
+ └───────────────────────────┬────────────────────────────┘
+                             │
+                             │
+                             ▼
+              =================================
+               BACKEND: ONION ARCHITECTURE
+              =================================
+              │ [API Layer]                   │
+              │   └── Controllers & DTOs      │
+              │                               │
+              │ [Infrastructure Layer]        │
+              │   └── EF Core DbContext       │
+              │                               │
+              │ [Application Layer]           │
+              │   └── Services & Interfaces   │
+              │                               │
+              │ [Core Domain Layer]           │
+              │   └── Entities & Repositories │
+              =================================
+                             │
+                             │ (Optimized SQL Queries)
+                             ▼
+ ┌────────────────────────────────────────────────────────┐
+ │                PostgreSQL / MySQL DB                   │
+ └───────────────────────────┬────────────────────────────┘
+                             │
+                             │ (JSON Data Serialization)
+                             ▼
+ ┌────────────────────────────────────────────────────────┐
+ │             Flutter Cross-Platform Mobile              │
+ │          (MVVM State Management Architecture)          │
+ └────────────────────────────────────────────────────────┘
+```
